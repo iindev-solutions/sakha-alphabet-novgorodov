@@ -11,7 +11,8 @@
   --novg-special: #e8a849;
   --radius: 6px;
   --font: "Inter", system-ui, -apple-system, sans-serif;
-  --font-mono: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
+  --font-mono: "JetBrains Mono", "Noto Sans Mono Sakha", "SF Mono", "Fira Code",
+    monospace;
 }
 
 * {

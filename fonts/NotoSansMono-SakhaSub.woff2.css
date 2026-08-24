@@ -1,0 +1,12 @@
+/* Локальный сабсет Noto Sans Mono: только глифы, которых нет в
+   JetBrains Mono и в системных шрифтах iPhone (то есть ꭠ ꭡ ꭢ ꭣ
+   из блока Latin Extended-E, U+AB60–AB63). unicode-range не даёт
+   браузеру грузить файл, пока эти символы реально не встретились. */
+@font-face {
+	font-family: "Noto Sans Mono Sakha";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("./NotoSansMono-SakhaSub.woff2") format("woff2");
+	unicode-range: U+0254, U+026F, U+0272, U+0283, U+028E, U+AB60-AB63;
+}
